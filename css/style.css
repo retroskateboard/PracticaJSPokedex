@@ -1,0 +1,58 @@
+.textintro{
+    text-align: center;
+    font-size: 15px;
+    border-radius: 30px;
+    width: 12%;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.button1 {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.pokeimagecss{
+    width: 8%;
+    height: 8%;
+    margin-left: 500px;
+    margin-bottom: -264px;
+}
+
+
+
+.stats{
+    font-size: 15px;
+    text-align: left;
+    font-family: Montserrat;
+    margin-left: 100px;
+    margin-top: -570px;
+    line-height: 10px;
+    word-spacing: 100px;
+}
+
+.poketype{
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+body{
+    background-color: #305965;
+}
+
+footer{
+    background-color: #305965;
+    margin-bottom: 300px;
+}

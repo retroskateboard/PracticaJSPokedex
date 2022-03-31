@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+
+<body>
+    <center>    <img src="images/titulo.png" alt="titulo" width="450" height="150">   </center>
+    <img class="pokeimagecss" src="images/pokebola.png" alt="pokemon" id="pokeImg">
+    <center>    <img src="images/pokedex.png" alt="pokedex" width="650px" height="450px"></center><br>
+    <center>    <input class="textintro" type="text" placeholder="Nombre o # de pokemon" id="pokeName", name="pokeName"><br></center><br>
+    <center>    <button class="button1" onclick="fetchPokemon()">Cambiar pokemon</button><br></center>
+
+    <div class="stats">
+        <h3>Caracteristicas:</h3>
+        <h2 id="poke-name"> </h2>
+        <h2 id="poke-id"> </h2>
+        <h2 id="poke-type" class="poketype"> </h2>
+        
+
+    </div>
+  
+
+    <br><br> 
+
+    <footer>
+        <br>
+        <script src="js/pokedex.js"></script>
+        <br><br>
+    </footer>
+</body>
+</html>
